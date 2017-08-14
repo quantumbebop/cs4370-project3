@@ -1,0 +1,50 @@
+body {
+	background-color: #000000;
+}
+
+h1 {
+	color: #00FF00;
+	margin: 1%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+div#gamecontainer {
+	margin-right: auto;
+	margin-left: auto;
+	width: 98%;
+	height: 90%;
+	max-height: 90%;
+	border-radius: 5px;
+	text-align: center;
+	overflow: auto;
+	background-color: #00FF00;
+}
+
+table, td {
+	border-collapse: collapse;
+	border: 1px solid #008000;
+}
+
+td {
+	height: 5px;
+	width: 5px;
+}
+
+table#gameboard {
+	margin: 2% auto 2% auto;
+}
+
+.livecell {
+	background-color: #00FF00;
+}
+
+.deadcell {
+	background-color: #000000;
+}
+
+.gamebutton {
+	margin-top: 2%;
+}

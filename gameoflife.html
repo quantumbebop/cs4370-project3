@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="gameoflife.css" />
+	<title>CKS Project 3 - Game of Life</title>
+</head>
+	<body>
+		<h1>CKS Game of Life</h1>
+		<div id="gamecontainer">
+			<select id="random">
+				<option value="yes">Random</option>
+				<option value="no">Fixed</option>
+			</select>
+			<select id="size">
+				<option value="small">Small</option>
+				<option value="med">Medium</option>
+				<option value="large">Large</option>
+			</select>
+			<button type="button" id="populate" class="gamebutton">Populate</button>
+			<span> | </span>
+			<button type="button" id="start" class="gamebutton">Start</button>
+			<button type="button" id="stop" class="gamebutton">Stop</button>
+			<button type="button" id="gen1" class="gamebutton">+1 Generation</button>
+			<button type="button" id="gen23" class="gamebutton">+23 Generations</button>
+			<button type="button" id="reset" class="gamebutton">Reset</button>
+			<span class="bold"> Population: </span><span id="pop"></span>
+			<span class="bold"> Generation: </span><span id="gen"></span>
+			<table id="gameboard"></table>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="gameoflife.js"></script>
+	</body>
+</html>
